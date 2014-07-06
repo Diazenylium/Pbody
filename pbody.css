@@ -72,8 +72,15 @@ section{
   width:100%;
   background-size:cover;
   background-attachment:fixed;
+  position: relative;
+}
+div{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
+h2{
+  font-size:22px;
+}
 .one{
   background-image:url("http://i.imgur.com/tCaKzFR.jpg");
 }
@@ -87,3 +94,77 @@ section{
   background-image:url("http://i.imgur.com/9LxhDHX.jpg");
 }
 
+hr{
+  opacity:0.7;
+}
+
+.text1{
+  position: absolute;
+  top:50px;
+  right:50px;
+  width:320px;
+  height:235px;
+  padding:15px;
+  background-color:rgba(183,92,0,0.4);
+  color:rgba(255, 255, 255, 0.7);
+  border-radius:10px;
+  border:rgba(255, 255, 255, 0.4) 6px double;
+}
+
+.text2{
+  position: absolute;
+  bottom:50px;
+  right:37.5%;
+  width:25%;
+  height:190px;
+  padding:15px;
+  background-color:rgba(0,76,153,0.8);
+  color:rgba(255, 255, 255, 0.7);
+  border-radius:10px;
+  border:rgba(255, 255, 255, 0.7) 6px double;
+}
+
+.text3{
+  position: absolute;
+  top:110px;
+  left:90px;
+  width:320px;
+  height:190px;
+  padding:15px;
+  background-color:rgba(255,255,255,0.8);
+  color:rgba(0, 128, 255, 0.9);
+  border-radius:10px;
+  border:rgba(0, 128, 255, 0.7) 6px double;
+}
+
+.text4{
+  position: absolute;
+  position: absolute;
+  bottom:50px;
+  right:90px;
+  width:320px;
+  height:190px;
+  padding:15px;
+  background-color:rgba(255,255,255,0.8);
+  color:rgba(195, 115, 54, 0.9);
+  border-radius:10px;
+  border:rgba(195, 115, 54, 0.7) 6px double;
+}
+
+.lineone, .linetwo{
+  border-color:rgb(255,255,255);
+  border-top:none;
+  color:rgb(255,255,255);
+}
+
+.linethree{
+  border-color: rgb(0, 128, 255);
+  border-top:none;
+  color:rgb(0, 128, 255);
+}
+
+.linefour{
+  border-color:rgb(195, 115, 54);
+  border-top:none;
+  color:rgb(195, 115, 54);
+}
