@@ -26,7 +26,7 @@ footer, header, hgroup, menu, nav, section {
 }
 
 body {
-  line-height: 1;
+  line-height: 130%;
 }
 
 ol, ul {
@@ -102,11 +102,12 @@ hr{
   position: absolute;
   top:50px;
   right:50px;
-  width:320px;
+  width:410px;
   height:235px;
   padding:15px;
-  background-color:rgba(183,92,0,0.4);
+  background-color:rgba(183,92,0,0.6);
   color:rgba(255, 255, 255, 0.7);
+  text-shadow:1px 1px 3px rgba(255,255,255,0.7);
   border-radius:10px;
   border:rgba(255, 255, 255, 0.4) 6px double;
 }
@@ -116,12 +117,13 @@ hr{
   bottom:50px;
   right:37.5%;
   width:25%;
-  height:190px;
+  height:210px;
   padding:15px;
-  background-color:rgba(0,76,153,0.8);
+  background-color:rgba(0,76,153,0.6);
   color:rgba(255, 255, 255, 0.7);
+  text-shadow:1px 1px 3px rgba(255,255,255,0.7);
   border-radius:10px;
-  border:rgba(255, 255, 255, 0.7) 6px double;
+  border:rgba(255, 255, 255, 0.7) 3px dotted;
 }
 
 .text3{
@@ -129,9 +131,10 @@ hr{
   top:110px;
   left:90px;
   width:320px;
-  height:190px;
+  height:215px;
   padding:15px;
-  background-color:rgba(255,255,255,0.8);
+  background-color:rgba(255,255,255,0.6);
+  text-shadow:1px 1px 3px rgba(0, 128, 255, 0.9);
   color:rgba(0, 128, 255, 0.9);
   border-radius:10px;
   border:rgba(0, 128, 255, 0.7) 6px double;
@@ -143,12 +146,13 @@ hr{
   bottom:50px;
   right:90px;
   width:320px;
-  height:190px;
+  height:205px;
   padding:15px;
-  background-color:rgba(255,255,255,0.8);
+  background-color:rgba(255,255,255,0.6);
   color:rgba(195, 115, 54, 0.9);
+  text-shadow:1px 1px 3px rgba(255,255,255,0.7);
   border-radius:10px;
-  border:rgba(195, 115, 54, 0.7) 6px double;
+  border:rgba(195, 115, 54, 0.7) 3px dotted;
 }
 
 .lineone, .linetwo{
