@@ -142,7 +142,6 @@ hr{
 
 .text4{
   position: absolute;
-  position: absolute;
   bottom:50px;
   right:90px;
   width:320px;
@@ -185,18 +184,111 @@ hr{
 
 .home1{
   color:rgba(255,255,255,0.9);
-  margin-left: 60px;
+  margin-right: 20px;
 }
 .home2{
   color:rgba(255,255,255,0.9);
-  margin-left: 90px;
+  margin-right: 20px;
 }
 .home3{
   color:rgba(0, 128, 255, 0.9);
-  margin-left: 100px;
+  margin-right: 20px;
 }
 .home4{
   color:rgba(195, 115, 54, 0.9);
-  margin-left: 110px;
+  margin-right: 20px;
+}
+img{
+  display:none;
+}
+
+@media screen and (max-width:500px){
+  body{
+    font-size:0;
+  }
+
+  img{
+    /*position: absolute;*/
+    width:95%;
+    left:2.5%;
+    right:2.5%;
+    margin-bottom:10px;
+    display:block;
+  }
+  section{
+    position: static;
+    height:auto;
+    margin:0;
+  }
+  .text1, .text2, .text3, .text4{
+    /*position: absolute;*/
+    position:static;
+    width:90%;
+    height:auto;
+    font-size:20px;
+    line-height: 130%;
+    left:5%;
+    right:5%;
+    margin-bottom:10px;
+    display:block;
+  }
+    h2{
+      font-size:28px;
+  }
+  .one{
+    background-image:none;
+    background:linear-gradient(rgba(208,90,0,1),rgba(255,255,255,1));
+  }
+  .text1{
+    top:10px;
+    height:auto;
+  }
+
+  .two{
+    background-image:none;
+    background: linear-gradient(rgba(0,20,121,1),rgba(255,255,255,1));
+  }
+  .text2{
+    bottom:50px;
+    height:auto;
+  }
+  .three{
+    background-image:none;
+    background:linear-gradient(rgba(53,161,255,1),rgba(255,255,255,1));
+  }
+  .text3{
+    height:auto;
+    top:35px;
+  }
+
+  .four{
+    background-image:none;
+    background: linear-gradient(rgba(255,157,70,1),rgba(255,255,255,1));
+  }
+  .text4{
+    height:auto;
+    bottom:50px;
+  }
+  .img1{
+    bottom:10px;
+    border-radius:10px;
+    border:rgba(255, 255, 255, 0.4) 6px double;
+  }
+  .img2{
+    top:50px;
+    border-radius:10px;
+    border:rgba(255, 255, 255, 0.7) 3px dotted;
+  }
+  .img3{
+    bottom:35px;
+    border-radius:10px;
+    border:rgba(0, 128, 255, 0.7) 6px double;
+  }
+  .img4{
+    top:50px;
+    border-radius:10px;
+    border:rgba(164, 76, 0, 0.7) 3px dotted;
+  }
+
 }
 
